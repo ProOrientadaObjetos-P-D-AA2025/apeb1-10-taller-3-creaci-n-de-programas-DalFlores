@@ -1,5 +1,5 @@
 package ejecutor;
-public class Problema_1_TerrenoBase {
+public class Problema_1Base {
     private double costoTerreno;
     private double ancho;
     private double largo;

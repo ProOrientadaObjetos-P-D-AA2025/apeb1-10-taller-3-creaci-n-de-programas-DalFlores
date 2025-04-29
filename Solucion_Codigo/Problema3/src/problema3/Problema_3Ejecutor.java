@@ -2,7 +2,7 @@ package problema3;
 
 import java.util.Random;
 
-public class Problema_3_InstitucionEducativaEjecutor {
+public class Problema_3Ejecutor {
     public static void main(String[] args) {
         Random random = new Random();
 
@@ -14,7 +14,7 @@ public class Problema_3_InstitucionEducativaEjecutor {
         int numeroSedes = 1 + random.nextInt(5); 
         double gastosPorEstudiante = 500 + random.nextDouble() * 1500; 
 
-        Problema_3_InstitucionEducativaBase institucion = new Problema_3_InstitucionEducativaBase(
+        Problema_3Base institucion = new Problema_3Base(
                 nombre, tipoInstitucion, numeroAlumnos, numeroDocentes, numeroSedes, gastosPorEstudiante
         );
 

@@ -1,5 +1,5 @@
 package problema3;
-public class Problema_3_InstitucionEducativaBase {
+public class Problema_3Base {
     private String nombre;
     private String tipoInstitucion;
     private int numeroAlumnos;
@@ -8,7 +8,7 @@ public class Problema_3_InstitucionEducativaBase {
     private double gastosProyectadosPorEstudiante;
     private double presupuesto;
 
-    public Problema_3_InstitucionEducativaBase(String nombre, String tipoInstitucion,
+    public Problema_3Base(String nombre, String tipoInstitucion,
                                                int numeroAlumnos, int numeroDocentes,
                                                int numeroSedes, double gastosProyectadosPorEstudiante) {
         this.nombre = nombre;
