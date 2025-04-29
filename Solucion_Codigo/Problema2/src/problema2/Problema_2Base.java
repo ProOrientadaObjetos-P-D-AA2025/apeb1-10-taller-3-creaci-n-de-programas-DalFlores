@@ -1,11 +1,11 @@
 package problema2;
-public class Problema_2_EquivalenteHoraBase {
+public class Problema_2Base {
     private double horas;
     private double minutos;
     private double segundos;
     private double dias;
 
-    public Problema_2_EquivalenteHoraBase(double horas) {
+    public Problema_2Base(double horas) {
         this.horas = horas;
         calcularEquivalentes();
     }
