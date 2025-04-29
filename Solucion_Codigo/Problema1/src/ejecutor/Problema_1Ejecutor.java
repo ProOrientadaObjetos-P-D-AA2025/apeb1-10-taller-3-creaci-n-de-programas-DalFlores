@@ -2,9 +2,9 @@ package ejecutor;
 
 import java.util.Random;
 
-public class Problema_1_TerrenoEjecutor {
+public class Problema_1Ejecutor {
     public static void main(String[] args) {
-        Problema_1_TerrenoBase terreno = new Problema_1_TerrenoBase();
+        Problema_1Base terreno = new Problema_1Base();
 
         Random random = new Random();
         double ancho = 5 + (15 - 5) * random.nextDouble(); 
